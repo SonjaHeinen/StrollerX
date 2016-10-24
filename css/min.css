@@ -63,8 +63,12 @@ h5 {
 .content {
   display: flex;
   flex-direction: column;
+}
+
+.top {
   margin-top: 40px;
 }
+
 
 .grey {
   padding: 40px;
@@ -100,4 +104,28 @@ h5 {
 .icon {
   width: 50px;
   height: 50px;
+}
+
+.gif-stroller {
+  z-index: 2;
+  position: relative;
+  background-image: url('../img/icon-stroller-s.gif');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gif-bg {
+  z-index: 1;
+  margin-top: -400px;
+  height: 400px;
+  width: auto;
+  background-image: url('../img/pink-bg.png');
+  background-repeat: repeat-x;
+}
+
+.gif-container {
+  margin-top: 200px;
 }
